@@ -1,0 +1,105 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{26D5C100-2C7D-424D-B468-92651E9AC225}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SnakesAndLadders</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\upstream\main" />
+    <None Include=".git\objects\20\c1e3c1d0168d50bb6390b4d5d9fc650a10e489" />
+    <None Include=".git\objects\21\640706e6739504f3891c464f27698fbf86a27d" />
+    <None Include=".git\objects\21\96e83adb8f149c74c6ef8510ee0e6975bfb201" />
+    <None Include=".git\objects\4d\245a0293439dfb643c27e7f969ca892108ba7a" />
+    <None Include=".git\objects\52\65cd07d7340e2936243cfc67686ed06fb35f72" />
+    <None Include=".git\objects\7a\a94e5379db5cf7428caaf21006f72304c8a88c" />
+    <None Include=".git\objects\84\1b7f2212b61869f6bbf71ddb77e11cd475b0a0" />
+    <None Include=".git\objects\90\07be0c0d15fadfd779c9edfd0eca7a798a62f4" />
+    <None Include=".git\objects\dd\3183c4d70e718352691356283c00b41b811509" />
+    <None Include=".git\objects\e9\2ede29d76aefe079835aeae278da5341f6e15c" />
+    <None Include=".git\objects\pack\pack-36f5fa29d3d00bde2d9dccb58835f73303991a9c.idx" />
+    <None Include=".git\objects\pack\pack-36f5fa29d3d00bde2d9dccb58835f73303991a9c.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\upstream\main" />
+    <None Include=".vs\Katas.Code.SnakesAndLadders\v16\.suo" />
+    <None Include=".vs\Katas.Code.SnakesAndLadders\v16\TestStore\0\000.testlog" />
+    <None Include=".vs\Katas.Code.SnakesAndLadders\v16\TestStore\0\testlog.manifest" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\SnakesAndLadders\v16\TestStore\0\000.testlog" />
+    <None Include=".vs\SnakesAndLadders\v16\TestStore\0\testlog.manifest" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="img\snakesandladdersboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
