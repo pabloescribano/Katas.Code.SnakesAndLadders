@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Egyeiijg+Gnj/DFjOTk4EyAkb9t4v2CWBj4fvDntqvsq+LHG+BVbebKNKaV0Ktp0+qsNiybAnTZMr/eTYyF3oQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pablo\\OneDrive\\Documentos\\GitHub\\Katas.Code.SnakesAndLadders\\SnakesAndLadders.Application\\SnakesAndLadders.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
